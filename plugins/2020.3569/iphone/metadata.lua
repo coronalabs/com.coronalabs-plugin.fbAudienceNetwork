@@ -6,7 +6,7 @@ local metadata =
 		staticLibs = { 'xml2', 'FBAudienceNetworkPlugin' },
 		frameworks = { 'FBAudienceNetwork', 'FBSDKCoreKit', },
 		frameworksOptional = { 'VideoToolbox', 'Accelerate', },
-		-- usesSwift = true,
+		usesSwift = true,
 	},
 }
 

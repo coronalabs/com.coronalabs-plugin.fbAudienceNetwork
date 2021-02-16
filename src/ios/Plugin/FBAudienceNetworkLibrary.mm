@@ -387,6 +387,9 @@ FBAudienceNetworkPaidLibrary::init(lua_State *L)
             return 0;
           }
         }
+		else if (UTF8IsEqual(key, "advertiserTrackingEnabled")) {
+			[FBAdSettings setAdvertiserTrackingEnabled:lua_toboolean(L, -1)];
+		}
         else {
           logMsg(L, ERROR_MSG, MsgFormat(@"Invalid option '%s'", key));
           return 0;

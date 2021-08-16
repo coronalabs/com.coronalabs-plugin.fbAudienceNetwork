@@ -40,6 +40,10 @@
 	<array>
 		<string>armv7</string>
 	</array>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>fb</string>
+	</array>
 	<key>UIStatusBarStyle</key>
 	<string>UIStatusBarStyleBlackTranslucent</string>
 </dict>

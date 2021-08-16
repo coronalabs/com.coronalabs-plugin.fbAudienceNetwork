@@ -13,5 +13,5 @@ android {
 
 dependencies {
     implementation ':Corona@aar'
-    implementation 'com.facebook.android:audience-network-sdk:6.+'
+    implementation 'com.facebook.android:audience-network-sdk:6.5.1'
 }

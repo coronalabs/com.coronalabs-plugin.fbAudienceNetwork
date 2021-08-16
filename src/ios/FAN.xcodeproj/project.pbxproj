@@ -61,7 +61,7 @@
 		C22C1E4B1E981D9000D74196 /* LaunchScreen.storyboardc in Resources */ = {isa = PBXBuildFile; fileRef = C22C1E4A1E981D9000D74196 /* LaunchScreen.storyboardc */; };
 		E640B2F21BFC00B00031FAE9 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E640B2F11BFC00B00031FAE9 /* AssetsLibrary.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		E640B2F41BFC00BA0031FAE9 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E640B2F31BFC00BA0031FAE9 /* Photos.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		F51C66D61EE0D3B20040E4BE /* libFBAudienceNetworkPluginPaid.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E253E2166DE7C800DCDC2C /* libFBAudienceNetworkPluginPaid.a */; };
+		F51C66D61EE0D3B20040E4BE /* libFBAudienceNetworkPlugin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E253E2166DE7C800DCDC2C /* libFBAudienceNetworkPlugin.a */; };
 		F53C84DB238B248C00B9F0B3 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F53C84D9238B248C00B9F0B3 /* FBSDKCoreKit.framework */; };
 		F53C84DC238B248C00B9F0B3 /* FBAudienceNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F53C84DA238B248C00B9F0B3 /* FBAudienceNetwork.framework */; };
 		F53C84DE238B24E700B9F0B3 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F53C84DD238B24E700B9F0B3 /* libxml2.tbd */; };
@@ -70,6 +70,11 @@
 		F55D84A525AE0799003602B8 /* dummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55D84A425AE0799003602B8 /* dummy.swift */; };
 		F56457D91FA108F500EC8C29 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F56712391F73451B006B502D /* Images.xcassets */; };
 		F5BB41531BC42ACF0033F6FA /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5BB41521BC42ACF0033F6FA /* CoreText.framework */; };
+		F5BF006226B92DAD002E3C9F /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F5BF006126B92DAD002E3C9F /* libz.tbd */; };
+		F5BF006A26B92EB0002E3C9F /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5BF006926B92EB0002E3C9F /* AdSupport.framework */; };
+		F5BF006E26B93160002E3C9F /* FBSDKCoreKit_Basics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5BF006526B92E84002E3C9F /* FBSDKCoreKit_Basics.framework */; };
+		F5BF006F26B93160002E3C9F /* FBSDKCoreKit_Basics.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F5BF006526B92E84002E3C9F /* FBSDKCoreKit_Basics.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F5BF007026B93162002E3C9F /* FBSDKCoreKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F53C84D9238B248C00B9F0B3 /* FBSDKCoreKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F5C9F4811ED39AD100D34A2D /* _CoronaSplashScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = C277D3B51EBB9F8E00966BA1 /* _CoronaSplashScreen.png */; };
 		F5E548091BE7FF0200091810 /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5E548081BE7FF0200091810 /* GameController.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
@@ -90,6 +95,21 @@
 			remoteInfo = plugin_library;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F5BF006D26B9315E002E3C9F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F5BF006F26B93160002E3C9F /* FBSDKCoreKit_Basics.framework in Embed Frameworks */,
+				F5BF007026B93162002E3C9F /* FBSDKCoreKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		A447B60E165D72FB009EA762 /* AppCoronaDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppCoronaDelegate.h; sourceTree = SOURCE_ROOT; };
@@ -152,6 +172,11 @@
 		F56712391F73451B006B502D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../Corona/Images.xcassets; sourceTree = "<group>"; };
 		F572F8191EE06E45001BC814 /* CoronaNative.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = CoronaNative.xcconfig; sourceTree = "<group>"; };
 		F5BB41521BC42ACF0033F6FA /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		F5BF006126B92DAD002E3C9F /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		F5BF006326B92E83002E3C9F /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBAudienceNetwork.framework; path = EmbeddedFrameworks/FBAudienceNetwork.framework; sourceTree = "<group>"; };
+		F5BF006426B92E83002E3C9F /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = EmbeddedFrameworks/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		F5BF006526B92E84002E3C9F /* FBSDKCoreKit_Basics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit_Basics.framework; path = EmbeddedFrameworks/FBSDKCoreKit_Basics.framework; sourceTree = "<group>"; };
+		F5BF006926B92EB0002E3C9F /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		F5E548081BE7FF0200091810 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = System/Library/Frameworks/GameController.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -160,10 +185,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5BF006A26B92EB0002E3C9F /* AdSupport.framework in Frameworks */,
+				F5BF006226B92DAD002E3C9F /* libz.tbd in Frameworks */,
 				F53C84E2238B259C00B9F0B3 /* VideoToolbox.framework in Frameworks */,
 				F53C84E0238B251E00B9F0B3 /* Accelerate.framework in Frameworks */,
 				F53C84DE238B24E700B9F0B3 /* libxml2.tbd in Frameworks */,
-				F51C66D61EE0D3B20040E4BE /* libFBAudienceNetworkPluginPaid.a in Frameworks */,
+				F51C66D61EE0D3B20040E4BE /* libFBAudienceNetworkPlugin.a in Frameworks */,
 				F53C84DB238B248C00B9F0B3 /* FBSDKCoreKit.framework in Frameworks */,
 				F53C84DC238B248C00B9F0B3 /* FBAudienceNetwork.framework in Frameworks */,
 				E640B2F41BFC00BA0031FAE9 /* Photos.framework in Frameworks */,
@@ -193,6 +220,7 @@
 				A484118415128D5D0074BD57 /* MessageUI.framework in Frameworks */,
 				A484118515128D5D0074BD57 /* MobileCoreServices.framework in Frameworks */,
 				A484118615128D5D0074BD57 /* OpenAL.framework in Frameworks */,
+				F5BF006E26B93160002E3C9F /* FBSDKCoreKit_Basics.framework in Frameworks */,
 				A484112615114F700074BD57 /* OpenGLES.framework in Frameworks */,
 				A484118715128D5D0074BD57 /* QuartzCore.framework in Frameworks */,
 				A484118815128D5D0074BD57 /* Security.framework in Frameworks */,
@@ -249,6 +277,11 @@
 		A484111C15114F700074BD57 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F5BF006926B92EB0002E3C9F /* AdSupport.framework */,
+				F5BF006326B92E83002E3C9F /* FBAudienceNetwork.framework */,
+				F5BF006526B92E84002E3C9F /* FBSDKCoreKit_Basics.framework */,
+				F5BF006426B92E83002E3C9F /* FBSDKCoreKit.framework */,
+				F5BF006126B92DAD002E3C9F /* libz.tbd */,
 				F53C84E1238B259C00B9F0B3 /* VideoToolbox.framework */,
 				F53C84DF238B251E00B9F0B3 /* Accelerate.framework */,
 				F53C84DD238B24E700B9F0B3 /* libxml2.tbd */,
@@ -325,7 +358,7 @@
 		A4E253DB166DE7C800DCDC2C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A4E253E2166DE7C800DCDC2C /* libFBAudienceNetworkPluginPaid.a */,
+				A4E253E2166DE7C800DCDC2C /* libFBAudienceNetworkPlugin.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -344,6 +377,7 @@
 				A4841162151268030074BD57 /* Compile Corona Project */,
 				A484118B15128E320074BD57 /* build.settings to Info.plist */,
 				A484119015129A930074BD57 /* Touch main.mm to ensure build */,
+				F5BF006D26B9315E002E3C9F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -400,10 +434,10 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		A4E253E2166DE7C800DCDC2C /* libFBAudienceNetworkPluginPaid.a */ = {
+		A4E253E2166DE7C800DCDC2C /* libFBAudienceNetworkPlugin.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
-			path = libFBAudienceNetworkPluginPaid.a;
+			path = libFBAudienceNetworkPlugin.a;
 			remoteRef = A4E253E1166DE7C800DCDC2C /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};

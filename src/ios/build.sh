@@ -39,8 +39,7 @@ popd > /dev/null
 echo "OUTPUT_DIR: $OUTPUT_DIR"
 
 # Clean
-xcodebuild -project "$path/Plugin.xcodeproj" -configuration $CONFIG clean
-checkError
+rm -rf "$path/build" "$path/BuiltPlugin"
 
 # iOS
 xcodebuild -project "$path/Plugin.xcodeproj" -configuration $CONFIG -sdk iphoneos

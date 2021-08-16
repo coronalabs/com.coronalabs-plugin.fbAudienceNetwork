@@ -3,8 +3,8 @@ local metadata =
 	plugin =
 	{
 		format = 'staticLibrary',
-		staticLibs = { 'xml2', 'FBAudienceNetworkPlugin' },
-		frameworks = { 'FBAudienceNetwork', 'FBSDKCoreKit', },
+		staticLibs = { 'xml2', 'z', 'FBAudienceNetworkPlugin' },
+		frameworks = { 'FBAudienceNetwork', 'FBSDKCoreKit', 'FBSDKCoreKit_Basics' },
 		frameworksOptional = { 'VideoToolbox', 'Accelerate', },
 		usesSwift = true,
 	},

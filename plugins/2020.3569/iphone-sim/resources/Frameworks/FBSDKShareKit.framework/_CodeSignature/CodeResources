@@ -81,10 +81,6 @@
 	<dict>
 		<key>Headers/FBSDKShareBridgeOptions.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			UnSjaUXm5qLeLGXDUNVRzXY9NrQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			IxpwBSGJEUrCXBdjRGpZ0yehzDl7wfNF5HReqM5qO/8=
@@ -92,10 +88,6 @@
 		</dict>
 		<key>Headers/FBSDKShareErrorDomain.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ccdtzvuodQ/lvKIVoHt8KIM9u2U=
-			</data>
 			<key>hash2</key>
 			<data>
 			Gq/jBWHIi9/+dLPC1EqzBf+XM4GcHg1JpVUb0DiK6jM=
@@ -103,10 +95,6 @@
 		</dict>
 		<key>Headers/FBSDKShareKit-Swift.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			aVUQZbuIsqNpPcngJcxuQfGido4=
-			</data>
 			<key>hash2</key>
 			<data>
 			6l2PR35Ku4t+0Q59SbbzZyL40lnWDiX4RNSkh00JzTQ=
@@ -114,10 +102,6 @@
 		</dict>
 		<key>Headers/FBSDKShareKit.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			3Vlzn/6bUD/wgctBGh6x9fepcJg=
-			</data>
 			<key>hash2</key>
 			<data>
 			BizbBQ3VvhD8p64UL0pkalRRg0wPwYLFP3IXGeJnkE4=
@@ -125,10 +109,6 @@
 		</dict>
 		<key>Modules/FBSDKShareKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			rXuomqfEApLcl7udXB5MIv9u2Vc=
-			</data>
 			<key>hash2</key>
 			<data>
 			0k/C5slXOr3xoQoKepqzpQzcDem5DRnu8zzptSolmUg=
@@ -136,10 +116,6 @@
 		</dict>
 		<key>Modules/FBSDKShareKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			FNkn1HZYXlogzJspZ0E49+z/E1s=
-			</data>
 			<key>hash2</key>
 			<data>
 			lwui+YYSqeCy9O0TH9PBcHOwMlZNY2S9XatMvZMARTc=
@@ -147,10 +123,6 @@
 		</dict>
 		<key>Modules/FBSDKShareKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			+uftgP0rKWFdBBJ7zSIAPNwGrzY=
-			</data>
 			<key>hash2</key>
 			<data>
 			p1XfJ1hCZgZRKpWjwih8dXLXvg68/rfaKx13l77ZDtY=
@@ -158,10 +130,6 @@
 		</dict>
 		<key>Modules/FBSDKShareKit.swiftmodule/arm64.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			rXuomqfEApLcl7udXB5MIv9u2Vc=
-			</data>
 			<key>hash2</key>
 			<data>
 			0k/C5slXOr3xoQoKepqzpQzcDem5DRnu8zzptSolmUg=
@@ -169,10 +137,6 @@
 		</dict>
 		<key>Modules/FBSDKShareKit.swiftmodule/arm64.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			FNkn1HZYXlogzJspZ0E49+z/E1s=
-			</data>
 			<key>hash2</key>
 			<data>
 			lwui+YYSqeCy9O0TH9PBcHOwMlZNY2S9XatMvZMARTc=
@@ -180,10 +144,6 @@
 		</dict>
 		<key>Modules/FBSDKShareKit.swiftmodule/arm64.swiftmodule</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			+uftgP0rKWFdBBJ7zSIAPNwGrzY=
-			</data>
 			<key>hash2</key>
 			<data>
 			p1XfJ1hCZgZRKpWjwih8dXLXvg68/rfaKx13l77ZDtY=
@@ -191,10 +151,6 @@
 		</dict>
 		<key>Modules/FBSDKShareKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zZDCrYoKHcaNBprPIuHvBtaLYKs=
-			</data>
 			<key>hash2</key>
 			<data>
 			s91RrZA0YsEUDGEuraSw1RUJEOrXgKbw/J+imDqnpK0=
@@ -202,10 +158,6 @@
 		</dict>
 		<key>Modules/FBSDKShareKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			27021WjhfivNVDy/s3aFzxSx/Lg=
-			</data>
 			<key>hash2</key>
 			<data>
 			pyh9kPvMQNXO+wsUnPZlXsO5q5xCBoxWrSV7WBzdQ8w=
@@ -213,10 +165,6 @@
 		</dict>
 		<key>Modules/FBSDKShareKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			t3W66xFt3Z9L2LHOGlAOuTvpSek=
-			</data>
 			<key>hash2</key>
 			<data>
 			UvqC4wIPZ81ekbG1GT5KpXzPhv39tQAEXiDfvFrGLRI=
@@ -224,10 +172,6 @@
 		</dict>
 		<key>Modules/FBSDKShareKit.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zZDCrYoKHcaNBprPIuHvBtaLYKs=
-			</data>
 			<key>hash2</key>
 			<data>
 			s91RrZA0YsEUDGEuraSw1RUJEOrXgKbw/J+imDqnpK0=
@@ -235,10 +179,6 @@
 		</dict>
 		<key>Modules/FBSDKShareKit.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			27021WjhfivNVDy/s3aFzxSx/Lg=
-			</data>
 			<key>hash2</key>
 			<data>
 			pyh9kPvMQNXO+wsUnPZlXsO5q5xCBoxWrSV7WBzdQ8w=
@@ -246,10 +186,6 @@
 		</dict>
 		<key>Modules/FBSDKShareKit.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			t3W66xFt3Z9L2LHOGlAOuTvpSek=
-			</data>
 			<key>hash2</key>
 			<data>
 			UvqC4wIPZ81ekbG1GT5KpXzPhv39tQAEXiDfvFrGLRI=
@@ -257,10 +193,6 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			c/1l3+MTRWj+XKPFv/2HWhKeUtA=
-			</data>
 			<key>hash2</key>
 			<data>
 			LFKLAS36xoxx786XN6Efo7GDNLqGNFpjOc/zQ1+JRXY=

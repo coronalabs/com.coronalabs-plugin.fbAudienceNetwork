@@ -133,10 +133,6 @@
 	<dict>
 		<key>Headers/FBAEMAdvertiserRuleFactory.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			yKvLFvS6IAEnl4wy2Hr+qpLlTZQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			n4ff1JqmRT9hLIChw9LKJPnHikWNW437YLQcMbqWaNI=
@@ -144,10 +140,6 @@
 		</dict>
 		<key>Headers/FBAEMAdvertiserRuleMatching.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			J4XLVbU1QkQ+vsp96NbE2CDglZw=
-			</data>
 			<key>hash2</key>
 			<data>
 			b7OWeUClIk3eMzKQ88dpyks5XwvN2rqz8ma+jGc9aC0=
@@ -155,10 +147,6 @@
 		</dict>
 		<key>Headers/FBAEMAdvertiserRuleOperator.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			pxydqvI15BpRVBvfSn9RXFP6zz0=
-			</data>
 			<key>hash2</key>
 			<data>
 			V/lKJil+YXykdXxtDcsdsCAVbcXhTZXclpWuGeikoDA=
@@ -166,10 +154,6 @@
 		</dict>
 		<key>Headers/FBAEMAdvertiserRuleProviding.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			oBjpGjCzOkGy0g6v8hbcpjXxy9I=
-			</data>
 			<key>hash2</key>
 			<data>
 			T2S5e1Qb400jRGUaIKao17m6TOTttA7oUvD1YHgFZpo=
@@ -177,10 +161,6 @@
 		</dict>
 		<key>Headers/FBAEMAdvertiserSingleEntryRule.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			hLUkAkmODucoUntMPo6uLRF72Lo=
-			</data>
 			<key>hash2</key>
 			<data>
 			MtpELt09rYat78RMDpRCuog7xUYkwdT7soZkIk1MIJI=
@@ -188,10 +168,6 @@
 		</dict>
 		<key>Headers/FBAEMInvocation.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			vA7s6hcnI31hKtWSwAIwWaQVe2E=
-			</data>
 			<key>hash2</key>
 			<data>
 			dr9DQsVF22nH0/TalKjpcBPOXpwc9VH2NjSh2s6AVyU=
@@ -199,10 +175,6 @@
 		</dict>
 		<key>Headers/FBAEMKit-Prefix-Header.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			K7g/zhr5ZA6vVqsMHKBc4hwRqTs=
-			</data>
 			<key>hash2</key>
 			<data>
 			X95o1ZqRBk75B/twsFPDGwnE0rcJzZZ+aHVXYs2e24Q=
@@ -210,10 +182,6 @@
 		</dict>
 		<key>Headers/FBAEMKit-Swift.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			VJNYOT8HoihxHQd97uBTLkjXbKk=
-			</data>
 			<key>hash2</key>
 			<data>
 			H3TwYsS+HREQkMwTFyiQ3fdiNz9qiYj4wuGWvIFOyBo=
@@ -221,10 +189,6 @@
 		</dict>
 		<key>Headers/FBAEMKit.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			gB02kjZCTPSjf3JmciNaczoklC4=
-			</data>
 			<key>hash2</key>
 			<data>
 			w8Gz6WgkveMjXpcHO9d3+sGON32lDdCWFHKYR+7dgas=
@@ -232,10 +196,6 @@
 		</dict>
 		<key>Headers/FBAEMKitVersions.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			6axPztwda+5bKIIkkxzurKmP/p4=
-			</data>
 			<key>hash2</key>
 			<data>
 			KWnWNB7wiPlGi15HlfozeaVQOsIDExVCf3foG7AIEjQ=
@@ -243,10 +203,6 @@
 		</dict>
 		<key>Headers/FBAEMNetworker.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			1YIulr37EaDtIX9J+Qhun6tLf+U=
-			</data>
 			<key>hash2</key>
 			<data>
 			6ul/TswN5q6XDTJd1EBQZZwZd0BsTpmTidGQ/6qtLiY=
@@ -254,10 +210,6 @@
 		</dict>
 		<key>Headers/FBAEMNetworking.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ghTzHaeILWcH507QH7tTFKT45po=
-			</data>
 			<key>hash2</key>
 			<data>
 			7e2i1241Ft2Xvaut6NIyhoHw6N+wMpOIsbrTDlI81g0=
@@ -265,10 +217,6 @@
 		</dict>
 		<key>Headers/FBAEMReporter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			p+LiA7Shk5uAVBAzAFEy20Rvm/Y=
-			</data>
 			<key>hash2</key>
 			<data>
 			E0wsApaYPPtNFUlZqr8dn+npXeZUlXOuLVvUBbwBAsE=
@@ -276,10 +224,6 @@
 		</dict>
 		<key>Headers/FBAEMRequestBody.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			/3dF50huTEGkN3puysyndoBwaSI=
-			</data>
 			<key>hash2</key>
 			<data>
 			9x7kOSgzLDOkVitO5IJz7RCkuY9b5wOZIMnd5i51dKA=
@@ -287,10 +231,6 @@
 		</dict>
 		<key>Headers/FBAEMRule.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			vf04ru85SXUoqaOlvLiBjJTWiPw=
-			</data>
 			<key>hash2</key>
 			<data>
 			dmaO4ah5Qj0cVSMksb9T3A8EnGyeQRkKAQqrn0kzUmU=
@@ -298,10 +238,6 @@
 		</dict>
 		<key>Headers/FBAEMUtility.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			tYxNbX/UFxFuy8CvDSrX2P7eHnA=
-			</data>
 			<key>hash2</key>
 			<data>
 			jiGNk1M6flw8FBdRaKmRowNraky5j+WeQuqNRmfEXiM=
@@ -309,10 +245,6 @@
 		</dict>
 		<key>Headers/FBSKAdNetworkReporting.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			pky/QYIj/dB780WrIohjghUSH/E=
-			</data>
 			<key>hash2</key>
 			<data>
 			elf75HlZ2bDZbULPVssKTSgy8K957SFxGfCuUVz2S6c=
@@ -320,10 +252,6 @@
 		</dict>
 		<key>Modules/FBAEMKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			JrOCHipruUf3+HSHdIBhwKKb7jk=
-			</data>
 			<key>hash2</key>
 			<data>
 			RLzvhE5EiAB2ui4cX/AS90g8o3q1svDNlLmDMfC3QWE=
@@ -331,10 +259,6 @@
 		</dict>
 		<key>Modules/FBAEMKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			d1StN9SPacbwEyvwRzGRR12zQT0=
-			</data>
 			<key>hash2</key>
 			<data>
 			wDRRlfC2aXIlYu6GjgqLigcKNKRKc59CfwDlCYwDCyc=
@@ -342,10 +266,6 @@
 		</dict>
 		<key>Modules/FBAEMKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			CiwqbqioDp7qr9/M2xL2DyZQ6aI=
-			</data>
 			<key>hash2</key>
 			<data>
 			UDAygLCTZr1c36s/rbyp/RMkzoU+JGEWo5gPOTsmEX0=
@@ -353,10 +273,6 @@
 		</dict>
 		<key>Modules/FBAEMKit.swiftmodule/arm64.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			JrOCHipruUf3+HSHdIBhwKKb7jk=
-			</data>
 			<key>hash2</key>
 			<data>
 			RLzvhE5EiAB2ui4cX/AS90g8o3q1svDNlLmDMfC3QWE=
@@ -364,10 +280,6 @@
 		</dict>
 		<key>Modules/FBAEMKit.swiftmodule/arm64.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			d1StN9SPacbwEyvwRzGRR12zQT0=
-			</data>
 			<key>hash2</key>
 			<data>
 			wDRRlfC2aXIlYu6GjgqLigcKNKRKc59CfwDlCYwDCyc=
@@ -375,10 +287,6 @@
 		</dict>
 		<key>Modules/FBAEMKit.swiftmodule/arm64.swiftmodule</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			CiwqbqioDp7qr9/M2xL2DyZQ6aI=
-			</data>
 			<key>hash2</key>
 			<data>
 			UDAygLCTZr1c36s/rbyp/RMkzoU+JGEWo5gPOTsmEX0=
@@ -386,10 +294,6 @@
 		</dict>
 		<key>Modules/FBAEMKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			8XTNqFKw4f9nnj8xAtMf0ck8A3Y=
-			</data>
 			<key>hash2</key>
 			<data>
 			Q9Rnh4aPKdc+ZnDyHQCnS3LVhm2dZOHxzJbs6oZnK1M=
@@ -397,10 +301,6 @@
 		</dict>
 		<key>Modules/FBAEMKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			z8W7+ZTIYZfut6N6OZRIDV8fZ3I=
-			</data>
 			<key>hash2</key>
 			<data>
 			UjwrRmxfYHZ70QhRjfnUZks7Jk6UfyayAleQYlTEjXI=
@@ -408,10 +308,6 @@
 		</dict>
 		<key>Modules/FBAEMKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			r+NSS6KsfWcmmEEI9E1q32FbRtI=
-			</data>
 			<key>hash2</key>
 			<data>
 			4n6yt54kNwS246Js0zI3JdutvjzkGqQ/bG21rSGfpc8=
@@ -419,10 +315,6 @@
 		</dict>
 		<key>Modules/FBAEMKit.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			8XTNqFKw4f9nnj8xAtMf0ck8A3Y=
-			</data>
 			<key>hash2</key>
 			<data>
 			Q9Rnh4aPKdc+ZnDyHQCnS3LVhm2dZOHxzJbs6oZnK1M=
@@ -430,10 +322,6 @@
 		</dict>
 		<key>Modules/FBAEMKit.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			z8W7+ZTIYZfut6N6OZRIDV8fZ3I=
-			</data>
 			<key>hash2</key>
 			<data>
 			UjwrRmxfYHZ70QhRjfnUZks7Jk6UfyayAleQYlTEjXI=
@@ -441,10 +329,6 @@
 		</dict>
 		<key>Modules/FBAEMKit.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			r+NSS6KsfWcmmEEI9E1q32FbRtI=
-			</data>
 			<key>hash2</key>
 			<data>
 			4n6yt54kNwS246Js0zI3JdutvjzkGqQ/bG21rSGfpc8=
@@ -452,10 +336,6 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			JELH5jXIzrBpYB3cXkE3/w648tU=
-			</data>
 			<key>hash2</key>
 			<data>
 			WLmw/LmU8blwOPh6slu/vPmQN0rS9XKWqm0gRWm7Kyk=

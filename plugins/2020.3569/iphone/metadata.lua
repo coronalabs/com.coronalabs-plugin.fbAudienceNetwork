@@ -3,9 +3,9 @@ local metadata =
 	plugin =
 	{
 		format = 'staticLibrary',
-		staticLibs = {"FBAudienceNetworkPlugin"},
+		staticLibs = {"FBAudienceNetworkPlugin", "z", },
 		frameworks = { 'Accounts', "FBAudienceNetwork", 'FBSDKCoreKit',  'FBSDKLoginKit', 'FBSDKShareKit', 'FBSDKCoreKit_Basics', "FBAEMKit", "Accelerate"},
-		frameworksOptional = {},
+		frameworksOptional = { "AdSupport", },
 		delegates = { },
 		usesSwift = true,
 	},

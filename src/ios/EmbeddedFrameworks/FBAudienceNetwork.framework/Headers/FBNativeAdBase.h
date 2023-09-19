@@ -1,20 +1,4 @@
-// Copyright 2004-present Facebook. All Rights Reserved.
-//
-// You are hereby granted a non-exclusive, worldwide, royalty-free license to use,
-// copy, modify, and distribute this software in source code or binary form for use
-// in connection with the web services and APIs provided by Facebook.
-//
-// As with any software that integrates with the Facebook platform, your use of
-// this software is subject to the Facebook Developer Principles and Policies
-// [http://developers.facebook.com/policy/]. This copyright notice shall be
-// included in all copies or substantial portions of the software.
-//
-// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
-// FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
-// COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
-// IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
-// CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+// (c) Meta Platforms, Inc. and affiliates. Confidential and proprietary.
 
 #import <UIKit/UIKit.h>
 
@@ -51,7 +35,7 @@ typedef NS_ENUM(NSInteger, FBNativeAdsCachePolicy) {
 /**
  The Internal representation of an Ad
  */
-@interface FBNativeAdBase : NSObject
+@interface FBNativeAdBase : NSObject <NSCopying>
 /**
  Typed access to the id of the ad placement.
  */
@@ -138,7 +122,9 @@ typedef NS_ENUM(NSInteger, FBNativeAdsCachePolicy) {
 
 @property (nonatomic, getter=isRegistered, readonly) BOOL registered;
 /**
- FBAdExtraHint to provide extra info
+ FBAdExtraHint to provide extra info. Note: FBAdExtraHint is deprecated in AudienceNetwork. See FBAdExtraHint for more
+ details
+
  */
 @property (nonatomic, strong, nullable) FBAdExtraHint *extraHint;
 /**
@@ -152,7 +138,10 @@ typedef NS_ENUM(NSInteger, FBNativeAdsCachePolicy) {
  You can implement `nativeAdDidLoad:` and `nativeAd:didFailWithError:` methods
  of `FBNativeAdDelegate` if you would like to be notified as loading succeeds or fails.
  */
-- (void)loadAd;
+- (void)loadAd FB_DEPRECATED_WITH_MESSAGE(
+    "This method will be removed in future version. Use -loadAdWithBidPayload instead."
+    "See https://www.facebook.com/audiencenetwork/resources/blog/bidding-moves-from-priority-to-imperative-for-app-monetization"
+    "for more details.");
 
 /**
  Begins loading the FBNativeAd content.
@@ -165,7 +154,12 @@ typedef NS_ENUM(NSInteger, FBNativeAdsCachePolicy) {
  media for the ad is visible on screen (Video or Image for FBNativeAd / Icon for FBNativeBannerAd) and setting this to
  anything else than FBNativeAdsCachePolicyAll will delay the impression call.
  */
-- (void)loadAdWithMediaCachePolicy:(FBNativeAdsCachePolicy)mediaCachePolicy;
+- (void)loadAdWithMediaCachePolicy:(FBNativeAdsCachePolicy)mediaCachePolicy
+    FB_DEPRECATED_WITH_MESSAGE(
+        "This method will be removed in future version. Use -loadAdWithBidPayload:mediaCachePolicy: instead."
+        "See https://www.facebook.com/audiencenetwork/resources/blog/bidding-moves-from-priority-to-imperative-for-app-monetization"
+        "for more details.");
+;
 
 /**
  Begins loading the FBNativeAd content from a bid payload attained through a server side bid.
